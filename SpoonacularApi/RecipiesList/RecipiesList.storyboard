@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="7j0-Tu-9Ir">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Recipies List View Controller-->
+        <scene sceneID="SAM-D0-HgY">
+            <objects>
+                <viewController storyboardIdentifier="RecipiesListViewController" id="7j0-Tu-9Ir" customClass="RecipiesListViewController" customModule="SpoonacularApi" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="DLM-vl-NFG">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="N4s-ut-iAb">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" id="dmQ-92-O9Y">
+                                        <rect key="frame" x="0.0" y="28" width="414" height="43.5"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="dmQ-92-O9Y" id="QxF-jt-rkm">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="N4s-ut-iAb" firstAttribute="top" secondItem="11F-ST-Kgu" secondAttribute="top" id="H2X-2Z-fvX"/>
+                            <constraint firstItem="11F-ST-Kgu" firstAttribute="bottom" secondItem="N4s-ut-iAb" secondAttribute="bottom" id="U8X-Up-GU8"/>
+                            <constraint firstItem="11F-ST-Kgu" firstAttribute="trailing" secondItem="N4s-ut-iAb" secondAttribute="trailing" id="VVK-dT-LwW"/>
+                            <constraint firstItem="N4s-ut-iAb" firstAttribute="leading" secondItem="11F-ST-Kgu" secondAttribute="leading" id="g7i-vJ-VwW"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="11F-ST-Kgu"/>
+                    </view>
+                    <connections>
+                        <outlet property="tableView" destination="N4s-ut-iAb" id="T4u-ye-HTA"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PQ3-tR-XHM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="38" y="179"/>
+        </scene>
+    </scenes>
+</document>

@@ -1,0 +1,6 @@
+framework module Pods_SpoonacularApi {
+  umbrella header "Pods-SpoonacularApi-umbrella.h"
+
+  export *
+  module * { export * }
+}

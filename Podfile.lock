@@ -1,0 +1,55 @@
+PODS:
+  - Cosmos (21.0.0)
+  - RxBlocking (5.1.0):
+    - RxSwift (~> 5)
+  - RxCocoa (5.1.0):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxRelay (5.1.0):
+    - RxSwift (~> 5)
+  - RxSwift (5.1.0)
+  - RxSwiftExt (5.2.0):
+    - RxSwiftExt/Core (= 5.2.0)
+    - RxSwiftExt/RxCocoa (= 5.2.0)
+  - RxSwiftExt/Core (5.2.0):
+    - RxSwift (~> 5.0)
+  - RxSwiftExt/RxCocoa (5.2.0):
+    - RxCocoa (~> 5.0)
+    - RxSwiftExt/Core
+  - RxTest (5.1.0):
+    - RxSwift (~> 5)
+  - SnapshotTesting (1.7.2)
+
+DEPENDENCIES:
+  - Cosmos (~> 21.0)
+  - RxBlocking (~> 5)
+  - RxCocoa (~> 5)
+  - RxSwift (~> 5)
+  - RxSwiftExt (~> 5)
+  - RxTest (~> 5)
+  - SnapshotTesting (~> 1.7.2)
+
+SPEC REPOS:
+  trunk:
+    - Cosmos
+    - RxBlocking
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+    - RxSwiftExt
+    - RxTest
+    - SnapshotTesting
+
+SPEC CHECKSUMS:
+  Cosmos: 3dfb6e4ba48bd48b8c9aa2a77048ae11ed114f96
+  RxBlocking: 5ef131267220f92ef68531dd6afeaf407cd6b41a
+  RxCocoa: 13d2a4d7546a34b8ececae8c281e4ea1dbb94f2b
+  RxRelay: a168bd6caf712d00c676ac344e9295afc93b418e
+  RxSwift: ad5874f24bb0dbffd1e9bb8443604e3578796c7a
+  RxSwiftExt: 4ca80336f43c28f11a2825cdd2fc61dd6c044697
+  RxTest: d5e1c9c1880de2751041fa485d476ce006967b31
+  SnapshotTesting: 8caa6661fea7c8019d5b46de77c16bab99c36c5c
+
+PODFILE CHECKSUM: 850b8ec11e39dcc98d11252453bc931df3759d28
+
+COCOAPODS: 1.8.4
